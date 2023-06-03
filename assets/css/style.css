@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body{
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+}
+
+.relogio{
+    width: 500px;
+    height: 500px;
+}
+
+.num{
+    transform: rotate(var(--rotation));
+    font-size: 2em;
+}
+
+.relogio::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
+
+.relogio .pont{
+    --rotation: 30;
+    bottom: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+    transform-origin: bottom;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.relogio .pont-segundos{
+    width: 3px;
+    height: 40%;
+}
+
+.relogio .pont-minutos{
+    width: 7px;
+    height: 35%;
+}
+
+.relogio .pont-horas{
+    width: 10px;
+    height: 25%;
+}
+
+.relogio .num.num-1{
+    --rotation: 30deg
+}
+
+.relogio .num.num-2{
+    --rotation: 60deg
+}
+
+.relogio .num.num-3{
+    --rotation: 90deg
+}
+
+.relogio .num.num-4{
+    --rotation: 120deg
+}
+
+.relogio .num.num-5{
+    --rotation: 150deg
+}
+
+.relogio .num.num-6{
+    --rotation: 180deg
+}
+
+.relogio .num.num-7{
+    --rotation: 210deg
+}
+
+.relogio .num.num-8{
+    --rotation: 240deg
+}
+
+.relogio .num.num-9{
+    --rotation: 270deg
+}
+
+.relogio .num.num-10{
+    --rotation: 300deg
+}
+
+.relogio .num.num-11{
+    --rotation: 330deg
+}
+
+.relogio .num.num-12{
+    --rotation: 360deg
+}
+
