@@ -8,3 +8,5 @@ Desenvolvi este projeto para testar minhas habilidades em:
 * JavaScript (uso de timeouts, intervalos e funções)
 
 <img src="https://github.com/GabrielLima5/imagens-projetos/blob/main/images/Rel%C3%B3gio%20Cl%C3%A1ssico.jpg">
+
+<p align="center">Acesse a aplicação diretamente clicando <a href="https://gabriellima5.github.io/relogio-classico/">aqui</a>.</p>
