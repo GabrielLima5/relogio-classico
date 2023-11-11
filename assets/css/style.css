@@ -107,3 +107,16 @@
     --rotation: 360deg
 }
 
+@media only screen and (max-width: 700px){ 
+    .relogio{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px){ 
+    .relogio{
+        width: 250px;
+        height: 250px;
+    }
+}
