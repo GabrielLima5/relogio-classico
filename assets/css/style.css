@@ -112,6 +112,10 @@
         width: 300px;
         height: 300px;
     }
+
+    .relogio .num{
+        padding: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 400px){ 
